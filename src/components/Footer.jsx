@@ -84,7 +84,7 @@ const ListItem = styled.li`
 
 const Right = styled.div`
   flex:3;
-  padding: 20px;
+ 
   ${mobile({ backgroundColor: "#fff8f8" })}
 
 `;
@@ -96,12 +96,12 @@ const Container1 = styled.div`
   display: flex;
   ${mobile({ width: "40%" })}
   flex-direction: column;
+  
 `;
 const Title1 = styled.h1`
   margin-bottom: 20px;
   margin-Right: 20%;
   color:white;
-
 
 `;
 
