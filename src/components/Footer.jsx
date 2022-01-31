@@ -94,13 +94,12 @@ const Right = styled.div`
 const Container1 = styled.div`
   background-color: #1976d2;
   display: flex;
-
+  ${mobile({ width: "40%" })}
   flex-direction: column;
 `;
 const Title1 = styled.h1`
-  font-size: 70px;
   margin-bottom: 20px;
-  margin-left: 10%;
+  margin-Right: 20%;
   color:white;
 
 
@@ -115,13 +114,13 @@ const InputContainer1 = styled.div`
   display: flex;
   justify-content: space-between;
   border: 1px solid lightgray;
-  ${mobile({ width: "80%" })}
+  ${mobile({ width: "40%" })}
 `;
 
 const Input1 = styled.input`
   border: none;
   flex: 8;
-  padding-left: 20px;
+
 `;
 
 const Button1 = styled.button`
